@@ -1,7 +1,7 @@
-tranSVG
+h1.tranSVG
 =======
 
-SVG l10n helper
+h3.SVG l10n helper
 
 This small piece of software is primarily aimed at translators and l10n teams who work with SVG files. This may be useful for diagrams, infographics, charts and so on.
 
