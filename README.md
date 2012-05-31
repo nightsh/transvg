@@ -19,4 +19,4 @@ Main (future) features include:
 Of course, having an automated tool translate some strings may end up in a messy design, especially when translating to German or other verbose language. Keep in mind that you may need to review and tweak the design a bit if you want to make sure it's still usable!
 
 
-Release date for v0.1: June, maybe
+h1.Release date for v0.1: June, maybe
