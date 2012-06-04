@@ -2,18 +2,16 @@
 import sys
 import pprint
 import elementtree.ElementTree as ET
-from lxml import etree
 import re
 
 pp = pprint.PrettyPrinter()
-#et = ElementTree()
 
 fname=sys.argv[1]       # Read file name from stdin
-f = open(fname, 'r')   # Opens file (sorry, no error checking yet, if it doesn't exist => crash)
+f = open(fname, 'r')    # Opens file (sorry, no error checking yet, if it doesn't exist => crash)
 xmlsig = '<?xml'        # Some XML-specific identification string (signature)
 svgsig = '<svg'         # SVG-specific identification string (signature)
 
-"""
+
 if xmlsig in f.readline():
     print f.name + " is an xml file"
     if svgsig in f.read():
@@ -24,9 +22,8 @@ if xmlsig in f.readline():
 else:
     print "Not a valid xml file, aborted"
     quit()
-"""
 
-regex = re.compile('(text)$')
+
 
 def parseElem(element):
     children = []
