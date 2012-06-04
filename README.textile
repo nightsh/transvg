@@ -17,6 +17,21 @@ Main (future) features include:
 
 [1]: http://www.poedit.net/
 
+
+Software dependencies:
+* python 2.7
+* gettext (not yet implemented)
+* any .po files editor (I recommend poedit)
+
+
+Required Python modules:
+* lxml
+* elementtree (both are in tests now, only one will survive)
+* re
+* pprint (optional, only for testing purposes)
+
+
+
 Of course, having an automated tool translate some strings may end up in a messy design, especially when translating to German or other verbose language. Keep in mind that you may need to review and tweak the design a bit if you want to make sure it's still usable!
 
 
