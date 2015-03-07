@@ -1,5 +1,7 @@
 h2. tranSVG
 
+*NOTE:* this project is pretty much dead. If, however, you like the idea, please try to reach me and we'll make it happen. Cheers!
+
 
 h3. SVG l10n helper
 
